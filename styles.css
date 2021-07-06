@@ -1,0 +1,224 @@
+body, input, button {
+  font-family: 'Arial', 'sans-serif';
+  font-size: 14px;
+  color: #222;
+}
+
+/*Top Horizontal Navigation Bar*/
+
+#container1 {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  flex-shrink: 0;
+  font-family: inherit;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.first {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.about {
+  display: inline;
+  order: 1;
+  width: 80px;
+}
+
+.store {
+  display: inline;
+  order: 2;
+  width: 80px;
+}
+/*Space Between*/
+.gmail {
+  display: inline;
+  font-size: 13px;
+}
+
+.images {
+  display: inline;
+  order: 4;
+  width: 80px;
+}
+
+.icon {
+  display: inline;
+  color: #5f6368;
+  opacity: 1;
+  cursor: pointer;
+  line-height: normal;
+  font-size: 13px;
+  font-family: 'RobotoDraft', 'Arial', 'sans-serif';
+}
+
+.sign-in {
+background-color: #1a73eB;
+border: 1pxcx solid transparent;
+font-family: 'Google sans', 'Roboto', 'RobotoDraft', 'Helvetica', 'Arial', 'sans-serif';
+font-weight: 500;
+letter-spacing: 0.25px;
+line-height: 16px;
+min-width: 96px;
+padding: 9px 23px 9px 23px;
+text-align: center;
+vertical-align: middle;
+border-radius: 4px;
+box-sizing: border-box;
+cursor: pointer;
+} 
+
+main#container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 92px;
+  max-height: 290px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+img.image {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;
+  margin: auto;
+  position: relative;
+}
+
+.container3 {
+  display: flex;
+  padding: 20px 20px 20px 20px;
+  max-height: 160px;
+  flex-shrink: 0;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+form {
+  position: relative;
+  margin: 0 auto 0 auto;
+  padding-top: 6px;
+  font-size: inherit;
+  color: inherit;
+  font-family: inherit;
+  position: relative;
+  width: 284px; 
+}
+
+input.container {
+  width: auto; 
+  max-width: 584px;
+  background-color: transparent;
+  display: flex;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  overflow-wrap: break-word;
+  color: rgba(0,0,0,.87);
+  outline: none;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100%;
+  margin-top: -37px; 
+  font-size: 16px;
+  height:  44px;
+  position: relative;
+}
+
+input {
+  font-size: 14px;
+  font-family: 'Arial', 'sans-serif';
+  width: 420px;
+  height: 50px; 
+  border: none;
+  display: flex;
+  flex: 1;
+  padding: 5px 8px 0 14px;
+  border-style: inset;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+icon {
+  margin: auto;
+}
+input.textarea {
+  color: transparent;
+  flex: 100%;
+  height: 34px; 
+  white-space: pre;
+}
+button.container{
+background-color: #f8f9fa; 
+}
+
+button.google-search, button.feeling-lucky {
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Bottom Horizontal Navigation bar*/
+
+#container3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 0px 20px 0px 20px;
+}
+
+a.left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  min-width: 30%;
+  order: 1;
+}
+
+.nav-link {
+  color: rgb(66, 66, 66);
+  display: block;
+  padding: 15px 15px 15px 15px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+a.center {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  order: 2;
+}
+a.right {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 30%;
+  justify-content: flex-end;
+  order: 3;
+}
